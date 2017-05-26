@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62F545F91ED83E1E00829C3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F545F81ED83E1E00829C3F /* main.m */; };
+		62F545FC1ED83E1E00829C3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F545FB1ED83E1E00829C3F /* AppDelegate.m */; };
+		62F545FF1ED83E1E00829C3F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F545FE1ED83E1E00829C3F /* ViewController.m */; };
+		62F546021ED83E1E00829C3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62F546001ED83E1E00829C3F /* Main.storyboard */; };
+		62F546051ED83E1F00829C3F /* Ramadan_Calender.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62F546031ED83E1E00829C3F /* Ramadan_Calender.xcdatamodeld */; };
+		62F546071ED83E1F00829C3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62F546061ED83E1F00829C3F /* Assets.xcassets */; };
+		62F5460A1ED83E1F00829C3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62F546081ED83E1F00829C3F /* LaunchScreen.storyboard */; };
+		62F546151ED83E2000829C3F /* Ramadan_CalenderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F546141ED83E2000829C3F /* Ramadan_CalenderTests.m */; };
+		62F546201ED83E2000829C3F /* Ramadan_CalenderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F5461F1ED83E2000829C3F /* Ramadan_CalenderUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62F546111ED83E2000829C3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62F545EC1ED83E1C00829C3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62F545F31ED83E1D00829C3F;
+			remoteInfo = "Ramadan Calender";
+		};
+		62F5461C1ED83E2000829C3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62F545EC1ED83E1C00829C3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62F545F31ED83E1D00829C3F;
+			remoteInfo = "Ramadan Calender";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62F545F41ED83E1D00829C3F /* Ramadan Calender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ramadan Calender.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F545F81ED83E1E00829C3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62F545FA1ED83E1E00829C3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		62F545FB1ED83E1E00829C3F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		62F545FD1ED83E1E00829C3F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		62F545FE1ED83E1E00829C3F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		62F546011ED83E1E00829C3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62F546041ED83E1E00829C3F /* Ramadan_Calender.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ramadan_Calender.xcdatamodel; sourceTree = "<group>"; };
+		62F546061ED83E1F00829C3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62F546091ED83E1F00829C3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62F5460B1ED83E1F00829C3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62F546101ED83E2000829C3F /* Ramadan CalenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ramadan CalenderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F546141ED83E2000829C3F /* Ramadan_CalenderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ramadan_CalenderTests.m; sourceTree = "<group>"; };
+		62F546161ED83E2000829C3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62F5461B1ED83E2000829C3F /* Ramadan CalenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ramadan CalenderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F5461F1ED83E2000829C3F /* Ramadan_CalenderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ramadan_CalenderUITests.m; sourceTree = "<group>"; };
+		62F546211ED83E2000829C3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62F545F11ED83E1D00829C3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F5460D1ED83E2000829C3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F546181ED83E2000829C3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62F545EB1ED83E1C00829C3F = {
+			isa = PBXGroup;
+			children = (
+				62F545F61ED83E1E00829C3F /* Ramadan Calender */,
+				62F546131ED83E2000829C3F /* Ramadan CalenderTests */,
+				62F5461E1ED83E2000829C3F /* Ramadan CalenderUITests */,
+				62F545F51ED83E1D00829C3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62F545F51ED83E1D00829C3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62F545F41ED83E1D00829C3F /* Ramadan Calender.app */,
+				62F546101ED83E2000829C3F /* Ramadan CalenderTests.xctest */,
+				62F5461B1ED83E2000829C3F /* Ramadan CalenderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62F545F61ED83E1E00829C3F /* Ramadan Calender */ = {
+			isa = PBXGroup;
+			children = (
+				62F5462D1ED83E3300829C3F /* New Group */,
+				62F545FA1ED83E1E00829C3F /* AppDelegate.h */,
+				62F545FB1ED83E1E00829C3F /* AppDelegate.m */,
+				62F545FD1ED83E1E00829C3F /* ViewController.h */,
+				62F545FE1ED83E1E00829C3F /* ViewController.m */,
+				62F546001ED83E1E00829C3F /* Main.storyboard */,
+				62F546061ED83E1F00829C3F /* Assets.xcassets */,
+				62F546081ED83E1F00829C3F /* LaunchScreen.storyboard */,
+				62F5460B1ED83E1F00829C3F /* Info.plist */,
+				62F546031ED83E1E00829C3F /* Ramadan_Calender.xcdatamodeld */,
+				62F545F71ED83E1E00829C3F /* Supporting Files */,
+			);
+			path = "Ramadan Calender";
+			sourceTree = "<group>";
+		};
+		62F545F71ED83E1E00829C3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62F545F81ED83E1E00829C3F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62F546131ED83E2000829C3F /* Ramadan CalenderTests */ = {
+			isa = PBXGroup;
+			children = (
+				62F546141ED83E2000829C3F /* Ramadan_CalenderTests.m */,
+				62F546161ED83E2000829C3F /* Info.plist */,
+			);
+			path = "Ramadan CalenderTests";
+			sourceTree = "<group>";
+		};
+		62F5461E1ED83E2000829C3F /* Ramadan CalenderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62F5461F1ED83E2000829C3F /* Ramadan_CalenderUITests.m */,
+				62F546211ED83E2000829C3F /* Info.plist */,
+			);
+			path = "Ramadan CalenderUITests";
+			sourceTree = "<group>";
+		};
+		62F5462D1ED83E3300829C3F /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62F545F31ED83E1D00829C3F /* Ramadan Calender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F546241ED83E2000829C3F /* Build configuration list for PBXNativeTarget "Ramadan Calender" */;
+			buildPhases = (
+				62F545F01ED83E1D00829C3F /* Sources */,
+				62F545F11ED83E1D00829C3F /* Frameworks */,
+				62F545F21ED83E1D00829C3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ramadan Calender";
+			productName = "Ramadan Calender";
+			productReference = 62F545F41ED83E1D00829C3F /* Ramadan Calender.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62F5460F1ED83E2000829C3F /* Ramadan CalenderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F546271ED83E2000829C3F /* Build configuration list for PBXNativeTarget "Ramadan CalenderTests" */;
+			buildPhases = (
+				62F5460C1ED83E2000829C3F /* Sources */,
+				62F5460D1ED83E2000829C3F /* Frameworks */,
+				62F5460E1ED83E2000829C3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62F546121ED83E2000829C3F /* PBXTargetDependency */,
+			);
+			name = "Ramadan CalenderTests";
+			productName = "Ramadan CalenderTests";
+			productReference = 62F546101ED83E2000829C3F /* Ramadan CalenderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62F5461A1ED83E2000829C3F /* Ramadan CalenderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F5462A1ED83E2000829C3F /* Build configuration list for PBXNativeTarget "Ramadan CalenderUITests" */;
+			buildPhases = (
+				62F546171ED83E2000829C3F /* Sources */,
+				62F546181ED83E2000829C3F /* Frameworks */,
+				62F546191ED83E2000829C3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62F5461D1ED83E2000829C3F /* PBXTargetDependency */,
+			);
+			name = "Ramadan CalenderUITests";
+			productName = "Ramadan CalenderUITests";
+			productReference = 62F5461B1ED83E2000829C3F /* Ramadan CalenderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62F545EC1ED83E1C00829C3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "TRITON Mobility Solutions";
+				TargetAttributes = {
+					62F545F31ED83E1D00829C3F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = PLV25N8T7A;
+						ProvisioningStyle = Automatic;
+					};
+					62F5460F1ED83E2000829C3F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = PLV25N8T7A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 62F545F31ED83E1D00829C3F;
+					};
+					62F5461A1ED83E2000829C3F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = PLV25N8T7A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 62F545F31ED83E1D00829C3F;
+					};
+				};
+			};
+			buildConfigurationList = 62F545EF1ED83E1C00829C3F /* Build configuration list for PBXProject "Ramadan Calender" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62F545EB1ED83E1C00829C3F;
+			productRefGroup = 62F545F51ED83E1D00829C3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62F545F31ED83E1D00829C3F /* Ramadan Calender */,
+				62F5460F1ED83E2000829C3F /* Ramadan CalenderTests */,
+				62F5461A1ED83E2000829C3F /* Ramadan CalenderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62F545F21ED83E1D00829C3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F5460A1ED83E1F00829C3F /* LaunchScreen.storyboard in Resources */,
+				62F546071ED83E1F00829C3F /* Assets.xcassets in Resources */,
+				62F546021ED83E1E00829C3F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F5460E1ED83E2000829C3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F546191ED83E2000829C3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62F545F01ED83E1D00829C3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F545FF1ED83E1E00829C3F /* ViewController.m in Sources */,
+				62F545FC1ED83E1E00829C3F /* AppDelegate.m in Sources */,
+				62F546051ED83E1F00829C3F /* Ramadan_Calender.xcdatamodeld in Sources */,
+				62F545F91ED83E1E00829C3F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F5460C1ED83E2000829C3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F546151ED83E2000829C3F /* Ramadan_CalenderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F546171ED83E2000829C3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F546201ED83E2000829C3F /* Ramadan_CalenderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62F546121ED83E2000829C3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62F545F31ED83E1D00829C3F /* Ramadan Calender */;
+			targetProxy = 62F546111ED83E2000829C3F /* PBXContainerItemProxy */;
+		};
+		62F5461D1ED83E2000829C3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62F545F31ED83E1D00829C3F /* Ramadan Calender */;
+			targetProxy = 62F5461C1ED83E2000829C3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62F546001ED83E1E00829C3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62F546011ED83E1E00829C3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62F546081ED83E1F00829C3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62F546091ED83E1F00829C3F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62F546221ED83E2000829C3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62F546231ED83E2000829C3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62F546251ED83E2000829C3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PLV25N8T7A;
+				INFOPLIST_FILE = "Ramadan Calender/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.triton.Ramadan-Calender";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		62F546261ED83E2000829C3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PLV25N8T7A;
+				INFOPLIST_FILE = "Ramadan Calender/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.triton.Ramadan-Calender";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		62F546281ED83E2000829C3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PLV25N8T7A;
+				INFOPLIST_FILE = "Ramadan CalenderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.triton.Ramadan-CalenderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ramadan Calender.app/Ramadan Calender";
+			};
+			name = Debug;
+		};
+		62F546291ED83E2000829C3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PLV25N8T7A;
+				INFOPLIST_FILE = "Ramadan CalenderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.triton.Ramadan-CalenderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ramadan Calender.app/Ramadan Calender";
+			};
+			name = Release;
+		};
+		62F5462B1ED83E2000829C3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PLV25N8T7A;
+				INFOPLIST_FILE = "Ramadan CalenderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.triton.Ramadan-CalenderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Ramadan Calender";
+			};
+			name = Debug;
+		};
+		62F5462C1ED83E2000829C3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PLV25N8T7A;
+				INFOPLIST_FILE = "Ramadan CalenderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.triton.Ramadan-CalenderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Ramadan Calender";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62F545EF1ED83E1C00829C3F /* Build configuration list for PBXProject "Ramadan Calender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F546221ED83E2000829C3F /* Debug */,
+				62F546231ED83E2000829C3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62F546241ED83E2000829C3F /* Build configuration list for PBXNativeTarget "Ramadan Calender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F546251ED83E2000829C3F /* Debug */,
+				62F546261ED83E2000829C3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62F546271ED83E2000829C3F /* Build configuration list for PBXNativeTarget "Ramadan CalenderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F546281ED83E2000829C3F /* Debug */,
+				62F546291ED83E2000829C3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62F5462A1ED83E2000829C3F /* Build configuration list for PBXNativeTarget "Ramadan CalenderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F5462B1ED83E2000829C3F /* Debug */,
+				62F5462C1ED83E2000829C3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		62F546031ED83E1E00829C3F /* Ramadan_Calender.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				62F546041ED83E1E00829C3F /* Ramadan_Calender.xcdatamodel */,
+			);
+			currentVersion = 62F546041ED83E1E00829C3F /* Ramadan_Calender.xcdatamodel */;
+			path = Ramadan_Calender.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 62F545EC1ED83E1C00829C3F /* Project object */;
+}

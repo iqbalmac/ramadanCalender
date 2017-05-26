@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Ramadan Calender.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>62F545F31ED83E1D00829C3F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>62F5460F1ED83E2000829C3F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>62F5461A1ED83E2000829C3F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
