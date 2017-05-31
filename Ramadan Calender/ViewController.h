@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "collectionCell.h"
+#import "DetailViewController.h"
 
 @interface ViewController : UIViewController
 

@@ -13,11 +13,74 @@
 @end
 
 @implementation AppDelegate
+@synthesize storyBoard, storyBoardName, isIPhone, navigationController;
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    [self gettingSize];
+    
     return YES;
+}
+
+-(void)gettingSize
+{
+    CGFloat height=self.window.frame.size.height;
+    if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone){
+        if(height == 480) {
+            
+            NSString * Main_4s = [NSMutableString stringWithFormat:@"%@",@"Main_4S"];
+            [[NSUserDefaults standardUserDefaults] setObject:Main_4s forKey:@"StoryBoardName"];
+            [[NSUserDefaults standardUserDefaults] synchronize];
+            
+        }else if (height == 568) {
+            NSString * Main_5 = [NSMutableString stringWithFormat:@"%@",@"Main"];
+            [[NSUserDefaults standardUserDefaults] setObject:Main_5 forKey:@"StoryBoardName"];
+            [[NSUserDefaults standardUserDefaults] synchronize];
+            
+        }else if (height == 736) {
+            
+            NSString * Main_6plus = [NSMutableString stringWithFormat:@"%@",@"Main_6S"];
+            [[NSUserDefaults standardUserDefaults] setObject:Main_6plus forKey:@"StoryBoardName"];
+            [[NSUserDefaults standardUserDefaults] synchronize];
+            
+        }
+        else  { //if(height == 667)
+            
+            NSString * Main_6 = [NSMutableString stringWithFormat:@"%@",@"Main_6"];
+            [[NSUserDefaults standardUserDefaults] setObject:Main_6 forKey:@"StoryBoardName"];
+            [[NSUserDefaults standardUserDefaults] synchronize];
+            
+        }
+        
+        NSString * StoryBoard_name =[[NSUserDefaults standardUserDefaults]
+                                     stringForKey:@"StoryBoardName"];
+        storyBoardName = [UIStoryboard storyboardWithName:StoryBoard_name bundle:[NSBundle mainBundle]];
+        
+        
+        UIViewController *initViewController = [storyBoardName instantiateInitialViewController];
+        [self.window setRootViewController:initViewController];
+    }
+    
+    //check iPhone or iPad
+    NSString *deviceType = [UIDevice currentDevice].model;
+    self.isIPhone = ([deviceType hasPrefix:@"iPhone"] || [deviceType hasPrefix:@"iPod"]);
+    storyBoard = [self currentstoryBoard];
+    
+}
+- (UIStoryboard *)currentstoryBoard
+{
+    CGFloat height = [UIScreen mainScreen].bounds.size.height;
+    if(height == 480) {
+        return [UIStoryboard storyboardWithName:@"Main_4S" bundle:[NSBundle mainBundle]];
+    }else if (height == 568) {
+        return [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+    }else if (height == 736) {
+        return [UIStoryboard storyboardWithName:@"Main_6S" bundle:[NSBundle mainBundle]];
+    }else {
+        return [UIStoryboard storyboardWithName:((self.isIPhone) ? @"Main" : @"Main_iPad")
+                                         bundle:[NSBundle mainBundle]];
+    }
 }
 
 
